@@ -1,7 +1,7 @@
 import numpy as np
 import sklearn.cluster as clust
 
-f = open("/Users/blindfish/Downloads/dataset.tsv")
+f = open("/Users/blindfish/bank/dataset.tsv")
 
 data = []
 
