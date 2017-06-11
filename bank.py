@@ -134,8 +134,8 @@ print scores.mean()
 #ext estmater = 50  ---> 0.8
 #ext estmater = 100  ---> 0.8
 
-ada = AdaBoostClassifier(n_estimators=100)
-scores = cross_val_score(ada, X, y)
-print "AdaBoost tree result"
-print scores.mean()
+#ada = AdaBoostClassifier(n_estimators=100)
+#scores = cross_val_score(ada, X, y)
+#print "AdaBoost tree result"
+#print scores.mean()
 
