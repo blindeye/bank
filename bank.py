@@ -12,6 +12,12 @@ cdata = []
 for i in data:
     cdata.append(i[0:8])
 
+def make_data(various):
+    result = []
+    for i in
+    various_set = list(set(various))
+    for i in range(len(various_set)):
+
 trainData = np.array()
 
 hclust = clust.AgglomerativeClustering(n_clusters=4)
