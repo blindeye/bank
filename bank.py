@@ -5,6 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import AdaBoostClassifier
 import matplotlib.pyplot as plt
 
 f = open("/Users/blindfish/bank/dataset.tsv")
@@ -135,5 +136,6 @@ print scores.mean()
 
 ada = AdaBoostClassifier(n_estimators=100)
 scores = cross_val_score(ada, X, y)
+print "AdaBoost tree result"
 print scores.mean()
 
